@@ -40,6 +40,29 @@
 
   
   <link rel="stylesheet" href="https://www.alpescraft.fr/scss/landing-page.min.css" media="screen">
+
+  
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-139631751-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
 </head>
 <body>
 
@@ -64,14 +87,14 @@
         </li>
         
         <li class="nav-item">
-          <a class="nav-link" href="#mailinglist">
-            Billetterie
+          <a class="nav-link" href="#location">
+            Nous rejoindre
           </a>
         </li>
         
         <li class="nav-item">
-          <a class="nav-link" href="#location">
-            Nous rejoindre
+          <a class="nav-link" href="#mailinglist">
+            Billetterie
           </a>
         </li>
         
@@ -126,12 +149,22 @@
             <i class="icon-check m-auto text-primary"></i>
           </div>
           <h3>Se perfectionner</h3>
-          <p class="lead mb-0">Échanger avec des professionels lors d'une seconde journée en partenariat avec  <a href='https://socrates-fr.github.io/'' target='_blank'>SoCraTes-FR</a>
+          <p class="lead mb-0">Échanger avec des professionels lors d'une seconde journée en partenariat avec <a href='https://socrates-fr.github.io/'' target='_blank'>SoCraTes-FR</a>
 </p>
         </div>
       </div>
       
     </div>
+  </div>
+  <div class="description lead">
+    
+      <p>AlpesCraft est une conférence technique, agnostique aux technologies</p>
+    
+      <p>Nous pensons que le plus important est de bien maîtriser les fondamentaux et d'apprendre les pratiques au-delà des frameworks</p>
+    
+      <p>Peut importe votre langage de programmation, votre framework ou librairie préféré, participer à Alpescraft c'est apprendre des choses applicables dès le lendemain
+</p>
+    
   </div>
 </section>
     </section>
@@ -150,7 +183,10 @@
                 
                     <p class="lead mb-0">Réaliser un produit logiciel qui correspond aux besoins de nos utilisateurs et qui soit facile à faire évoluer est un Graal difficile à atteindre.</p>
                 
-                    <p class="lead mb-0">Cela demande à la fois une excellence technique, une maîtrise des bonnes pratiques sur l'ensemble de la chaîne de production, des compétences de coopération et de communication avec l'ensemble des acteurs, un paradigme de travail d'apprentissage (The Build-Measure-Learn Feedback Loop)... Une quête passionnante qui est facilitée lorsqu'on rencontre des personnes expérimentées qui nous guident sur les chemins à suivre et nous aident à nous améliorer.</p>
+                    <p class="lead mb-0">Cela demande à la fois une excellence technique, une maîtrise des bonnes pratiques sur l'ensemble de la chaîne de production,
+ des compétences de coopération et de communication avec l'ensemble des acteurs, un paradigme de travail d'apprentissage (The Build-Measure-Learn Feedback Loop)...
+ Une quête passionnante qui est facilitée lorsqu'on rencontre des personnes expérimentées qui nous guident sur les chemins à suivre et nous aident à nous améliorer.
+</p>
                 
             </div>
         </div>
@@ -182,9 +218,40 @@
 
     </section>
   
+    <section class="location" id="location"></section>
+      <section class="location">
+    <div class="container-fluid p-0">
+        
+        <div class="row no-gutters">
+            <div class='col-lg-6 order-lg-1 text-white location-map'>
+                <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                    src="https://www.openstreetmap.org/export/embed.html?bbox=5.681819915771484%2C45.18246032375408%2C5.738296508789063%2C45.20907316817522&amp;layer=mapnik&amp;marker=45.195807222%2C5.7096947222">
+                </iframe>
+            </div>
+            <div class='col-lg-6 order-lg-2 location-text'>
+                <h2>Venir</h2>
+
+                <p class="lead">Les deux jours se dérouleront à :</p>
+                <p class="lead text-center"><strong>Maison Minatec</strong></p>
+                <p class="lead text-center">3 Parvis Louis Néel, Grenoble</p>
+
+                
+                    <p class="lead">Vous pouvez y accéder : <ul class="lead">
+  <li>par la ligne B du Tram (direction Grenoble Presqu'île), arrêt "Cité Internationale"</li>
+  <li>en voiture (vous pouvez vous garer aux parkings Doyen Weil ou d'Europole Gare)</li>
+  <li>à <a href="http://www.metromobilite.fr/velo.html" target="_blank"> vélo</a></li>
+</ul>
+</p>
+                
+            </div>
+        </div>
+        
+    </div>
+</section>
+    </section>
+  
     <section class="mailinglist" id="mailinglist"></section>
       <section class="call-to-action text-white text-center">
-  <div class="overlay"></div>
   <div class="container">
     <div class="row">
       <div class="col-xl-9 mx-auto">
@@ -198,38 +265,6 @@
       </div>
     </div>
   </div>
-</section>
-    </section>
-  
-    <section class="location" id="location"></section>
-      <section class="location">
-    <div class="container-fluid p-0">
-        
-        <div class="row no-gutters">
-            <div class='col-lg-6 order-lg-2 text-white location-map'>
-                <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-                    src="https://www.openstreetmap.org/export/embed.html?bbox=5.681819915771484%2C45.18246032375408%2C5.738296508789063%2C45.20907316817522&amp;layer=mapnik&amp;marker=45.195807222%2C5.7096947222">
-                </iframe>
-            </div>
-            <div class='col-lg-6 order-lg-1 location-text'>
-                <h2>Venir</h2>
-
-                <p class="lead">Les deux jours se déroulont à :</p>
-                <p class="lead text-center"><strong>Maison Minatec</strong></p>
-                <p class="lead text-center">3 Parvis Louis Néel, Grenoble</p>
-
-                
-                    <p class="lead">Vous pouvez y accéder : <ul class="lead">
-  <li>par la ligne B du Tram (direction Grenoble Presqu'île), arrêt "Cité Internationale"</li>
-  <li>en voiture (vous pouvez vous garer aux parkings Doyen Weil ou d'Europole Gare)</li>
-  <li>en <a href="http://www.metromobilite.fr/velo.html" target="_blank"> vélo</a></li>
-</ul>
-</p>
-                
-            </div>
-        </div>
-        
-    </div>
 </section>
     </section>
   
@@ -255,9 +290,11 @@
         <p class="text-muted small mb-4 mb-lg-0">&copy; AlpesCraft 2019. All Rights Reserved.</p>
         <p class="text-muted small mb-4 mb-lg-0">Crédits photos :</p>
         
-        <p class="text-muted small mb-4 mb-lg-0">- <a class="credit-photo-link" href="https://unsplash.com/photos/Urg2oQ7Q-5c?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Ernest Imoesi</a></p>
+        <p class="text-muted small mb-4 mb-lg-0">- <a class="credit-photo-link" href="http://alpescraft.fr">Xavier Nopre</a></p>
         
         <p class="text-muted small mb-4 mb-lg-0">- <a class="credit-photo-link" href="https://unsplash.com/photos/5QgIuuBxKwM?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Headway</a></p>
+        
+        <p class="text-muted small mb-4 mb-lg-0">- <a class="credit-photo-link" href="https://unsplash.com/photos/yB5cYEq7y2U?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Fancycrave</a></p>
         
       </div>
       <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
