@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <meta name="generator" content="Hugo 0.55.6" />
+    <meta name="generator" content="Hugo 0.55.4" />
     <meta property="og:title" content="" />
 <meta property="og:description" content="{{ .Site.Params.Name }} {{ hugo.Generator }} {{ template &#34;_internal/opengraph.html&#34; . }} {{ template &#34;_internal/twitter_cards.html&#34; . }} {{ $styles := resources.Get &#34;scss/landing-page.scss&#34; | toCSS | minify }} {{ template &#34;_internal/google_analytics_async.html&#34; . }}   {{ partial &#34;nav.html&#34; . }} {{ range $sched, $slot := $.Site.Params.schedule }} {{ if $slot.conferences }} {{ range $index, $conf := $slot.conferences }} -- {{ .name }} {{ .description }}
 {{ if .details }}  {{ ." />
@@ -845,6 +845,11 @@ Prérequis:
                             <h1 class="card-title text-center">En finir avec la «Dette Technique»</h1>
                             <div class="row p-5 lead">
                                 <p>Au delà de subir la dette technique comment pouvons nous trouver le dialogue qui permettra de commencer à en sortir?</p>
+                                
+                                <div>
+                                    <p>Ward Cunningham a nommé &#34;Technical Debt&#34; le procédé qui consiste, pour une équipe, à déroger temporairement à ses standards de qualité en vue de gagner du temps dans la réalisation d&#39;un objectif intermédiaire. Au cours de la dernière décennie, l&#39;expression est devenue très populaire, tout en perdant son sens initial.  Elle est désormais utilisée pour désigner l&#39;état d&#39;une solution jugée non conforme à l&#39;état de l&#39;art généralement admis dans notre industrie, et pour souligner le fait que c&#39;est cette non-qualité qui ralentit la progression de l&#39;équipe aux prise avec cette solution. La plupart des équipes de développement ne contractent pas délibérément de dette technique. La plupart des équipes subissent de la dette technique.
+Si pour résoudre un problème il faut d&#39;abord le définir aussi clairement que possible alors nous devons reconnaître que le terme &#34;Dette Technique&#34; ne contribue en rien à clarifier l&#39;état de ce qu&#39;il est censé décrire. Nous devons donc trouver un modèle alternatif qui nous donne une meilleure façon de parler de cet état des choses que nous appelons une solution &#34;endettée&#34; si nous voulons contribuer à l&#39;améliorer.  C&#39;est ce que je me propose de faire durant cette présentation.</p>
+                                </div>
                                 
                             </div>
                                 <div class="row text-center">
