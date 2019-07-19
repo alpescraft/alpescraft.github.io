@@ -11,12 +11,22 @@
     
     <item>
       <title></title>
+      <link>https://www.alpescraft.fr/edition_2019/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.alpescraft.fr/edition_2019/</guid>
+      <description>{{ partial &#34;head.html&#34; . }}  {{ partial &#34;previousEdition/nav.html&#34; . }} {{ partial &#34;previousEdition/header.html&#34; .Site.Params }} {{ range $section := .Site.Params.SectionsPrevious }} {{ partial $section $.Site.Params }}  {{ end }} {{ partial &#34;footer.html&#34; .Site.Params }}     function getURLParameter(sParam) { var sPageURL = window.location.search.substring(1); var sURLVariables = sPageURL.split(&#39;&amp;&#39;); for (var i = 0; i   </description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://www.alpescraft.fr/session/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.alpescraft.fr/session/</guid>
-      <description>{{ .Site.Params.Name }} {{ hugo.Generator }} {{ template &#34;_internal/opengraph.html&#34; . }} {{ template &#34;_internal/twitter_cards.html&#34; . }} {{ $styles := resources.Get &#34;scss/landing-page.scss&#34; | toCSS | minify }} {{ template &#34;_internal/google_analytics_async.html&#34; . }}   {{ partial &#34;nav.html&#34; . }} {{ range $sched, $slot := $.Site.Params.schedule }} {{ if $slot.conferences }} {{ range $index, $conf := $slot.conferences }} -- {{ .name }} {{ .description }}
-{{ if .details }}  {{ .</description>
+      <description>{{ partial &#34;head.html&#34; . }}  {{ partial &#34;previousEdition/nav.html&#34; . }} {{ range $sched, $slot := $.Site.Params.schedule }} {{ if $slot.conferences }} {{ range $index, $conf := $slot.conferences }} -- {{ .name }} {{ .description }}
+{{ if .details }}  {{ .details }}
+ {{ end }}  {{ range $spk := $conf.speakers }} {{ $speaker := index $.Site.Params.speakersmap (string $spk.speakerid) }} {{ if $speaker.href }} {{ end }} {{ $speaker.</description>
     </item>
     
   </channel>
