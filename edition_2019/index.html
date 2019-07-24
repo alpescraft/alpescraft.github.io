@@ -12,14 +12,14 @@
 
     <meta name="generator" content="Hugo 0.55.6" />
     <meta property="og:title" content="" />
-<meta property="og:description" content="{{ partial &#34;head.html&#34; . }}  {{ partial &#34;previousEdition/nav.html&#34; . }} {{ partial &#34;previousEdition/header.html&#34; .Site.Params }} {{ range $section := .Site.Params.SectionsPrevious }} {{ partial $section $.Site.Params }}  {{ end }} {{ partial &#34;footer.html&#34; .Site.Params }}     function getURLParameter(sParam) { var sPageURL = window.location.search.substring(1); var sURLVariables = sPageURL.split(&#39;&&#39;); for (var i = 0; i   " />
+<meta property="og:description" content="{{ partial &#34;head.html&#34; . }}  {{ partial &#34;previousEdition/nav.html&#34; . }} {{ partial &#34;previousEdition/header.html&#34; .Site.Params }} {{ range $section := .Site.Params.SectionsPrevious }} {{ partial $section $.Site.Params }}  {{ end }} {{ partial &#34;footer.html&#34; .Site.Params }}   " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://www.alpescraft.fr/edition_2019/" />
 
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content=""/>
-<meta name="twitter:description" content="{{ partial &#34;head.html&#34; . }}  {{ partial &#34;previousEdition/nav.html&#34; . }} {{ partial &#34;previousEdition/header.html&#34; .Site.Params }} {{ range $section := .Site.Params.SectionsPrevious }} {{ partial $section $.Site.Params }}  {{ end }} {{ partial &#34;footer.html&#34; .Site.Params }}     function getURLParameter(sParam) { var sPageURL = window.location.search.substring(1); var sURLVariables = sPageURL.split(&#39;&&#39;); for (var i = 0; i   "/>
+<meta name="twitter:description" content="{{ partial &#34;head.html&#34; . }}  {{ partial &#34;previousEdition/nav.html&#34; . }} {{ partial &#34;previousEdition/header.html&#34; .Site.Params }} {{ range $section := .Site.Params.SectionsPrevious }} {{ partial $section $.Site.Params }}  {{ end }} {{ partial &#34;footer.html&#34; .Site.Params }}   "/>
 
 
     <link rel="shortcut icon" href="https://www.alpescraft.fr/img/logo/color/04-AlpesCraft_Couleurs-S.png" type="image/x-icon">
@@ -69,37 +69,31 @@ if (!doNotTrack) {
 <body>
 
 
-<nav class="navbar navbar-expand-lg navbar-light">
+<nav class="navbar navbar-expand-lg navbar-light sticky-top">
     <a class="navbar-brand" href="#">
-        <img src="https://www.alpescraft.fr/img/logo/color/04-AlpesCraft_Couleurs-S.png" alt="AlpesCraft logo">
+        <img src="https://www.alpescraft.fr/img/logo/color/04-AlpesCraft_Couleurs-S.png" class="navbar-brand-logo" alt="AlpesCraft logo">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarToggler">
           <ul class="navbar-nav">
-            <li>
-                <a class="nav-link" href="https://www.alpescraft.fr/">
-                      La conférence
+              <li class="nav-item">
+                
+                <a class="text-center nav-link" href="https://www.alpescraft.fr/" about="La conférence">
+                    <i class="icon-home nav-icon"></i>
+                    <p>La conférence</p>
                 </a>
+                
             </li>
             
             <li class="nav-item">
-                <a class="nav-link" href="https://www.alpescraft.fr//edition_2019/#schedule">
-                    Programme
+                
+                <a class="text-center nav-link" href="https://www.alpescraft.fr//edition_2019/#schedule" about="Programme">
+                    <i class="icon-book-open nav-icon"></i>
+                    <p>Programme</p>
                 </a>
-            </li>
-            
-            <li class="nav-item">
-                <a class="nav-link" href="https://www.alpescraft.fr//edition_2019/#sponsors">
-                    Sponsors
-                </a>
-            </li>
-            
-            <li class="nav-item">
-                <a class="nav-link" href="https://www.alpescraft.fr//edition_2019/#partners">
-                    Partenaires
-                </a>
+                
             </li>
             
           </ul>
@@ -114,7 +108,7 @@ if (!doNotTrack) {
   <div class="container">
     <div class="row">
       <div class="col-xl-9 mx-auto">
-        <h1 class="mb-5">AlpesCraft 2019</h1>
+        <h1 class="mb-5">AlpesCraft</h1>
         <h2 class="tagline">Edition du 13 et 14 Juin 2019, Maison Minatec, Grenoble</h2>
       </div>
     </div>
@@ -124,10 +118,11 @@ if (!doNotTrack) {
 
 
 <section class="schedule" id="schedule">
-    <h2 class="section-title text-center schedule-title">Programme</h2>
+    
+<h2 class="section-title title">Programme</h2>
 
 
-<h3>Journée du Jeudi 13 Juin</h3>
+
 
 <div class="schedule-pdf">
     <p>Téléchargez le programme en PDF</p>
@@ -1177,155 +1172,19 @@ Nous verrons cela lors d&#39;une session de live coding pour revenir ou présent
     
 </div>
 
-<div>
-    <h3>Journée du Vendredi 14 Juin</h3>
-    <h4>Socrates Day</h4>
-    <div class="row">
-        <div class="col-lg-4 text-left">
-            Cette journée est une non-conférence. Cela signifie que le programme de la journée sera défini sur place,
-            par les participantes et participants. En début de journée, chaque volontaire propose une ou plusieurs
-            sessions qu'il ou elle aimerait animer (présentation, coding dojo, atelier, échanges sur un sujet donné, ...),
-            ou à laquelle il ou elle souhaiterait participer. Le planning de la journée est établi à partir de ces propositions.
-        </div>
-        <div class="col-lg-4 ">
-            <img class="schedule-socrates-img" src="https://www.alpescraft.fr/img/marketplace.jpg"/>
-
-        </div>
-
-        <div class="col-lg-4 ">
-            <img class="schedule-socrates-img" src="https://www.alpescraft.fr/img/first-day.png"/>
-
-        </div>
-
-    </div>
-
-</div>
-
-</section>
-
-<section class="sponsors" id="sponsors">
-    <h2 class="section-title">Sponsors</h2>
-
-<p class="lead text-center font-weight-bold">Un grand merci à nos sponsors sans qui cette première aventure 2019 n'aurait pas pu voir le jour</p>
-<br/>
-<p class="lead">En particulier à notre sponsor Golden Master</p>
-<div class="row sponsors-row text-center">
-  
-  <div class="sponsor-img col my-auto">
-    <a href="https://fr.bonitasoft.com/" target="_blank" about="Bonitasoft">
-      <div class="card border-0">
-        <img class="img-golden card-img-top mx-auto" src="https://www.alpescraft.fr/img/sponsors/bonitasoft.png" alt="Bonitasoft">
-      </div>
-    </a>
-  </div>
-  
-</div>
-
-<p class="lead">Et également à nos sponsors TDD</p>
-<div class="row sponsors-row text-center">
-  
-  <div class="sponsor-img col my-auto">
-    <a href="https://www.eloquant.com/" target="_blank" about="Eloquant">
-      <div class="card border-0">
-        <img class="img-tdd card-img-top mx-auto" src="https://www.alpescraft.fr/img/sponsors/eloquant.jpg" alt="Eloquant">
-      </div>
-    </a>
-  </div>
-  
-  <div class="sponsor-img col my-auto">
-    <a href="https://www.salesforce.com" target="_blank" about="Salesforce">
-      <div class="card border-0">
-        <img class="img-tdd card-img-top mx-auto" src="https://www.alpescraft.fr/img/sponsors/salesforce.png" alt="Salesforce">
-      </div>
-    </a>
-  </div>
-  
-  <div class="sponsor-img col my-auto">
-    <a href="https://www.tuleap.org/" target="_blank" about="Tuleap">
-      <div class="card border-0">
-        <img class="img-tdd card-img-top mx-auto" src="https://www.alpescraft.fr/img/sponsors/tuleap.png" alt="Tuleap">
-      </div>
-    </a>
-  </div>
-  
-  <div class="sponsor-img col my-auto">
-    <a href="https://www.zenika.com/" target="_blank" about="Zenika">
-      <div class="card border-0">
-        <img class="img-tdd card-img-top mx-auto" src="https://www.alpescraft.fr/img/sponsors/zenika.png" alt="Zenika">
-      </div>
-    </a>
-  </div>
-  
-</div>
-
-<div class="row my-auto">
-  <div class="col text-center">
-    <a href="mailto:contact@alpescraft.fr">
-      <button type="button" class="btn btn-lg btn-info">Devenir Sponsor</button>
-    </a>
-  </div>
-</div>
-
-</section>
-
-<section class="partners" id="partners">
-    <h2 class="section-title">Partenaires</h2>
-
-<div class="row partners-row text-center">
-  
-  <div class="col my-auto partner-img">
-    <a href="http://www.alpesjug.org/" target="_blank" about="AlpesJUG">
-      <div class="card border-0">
-        <img class="card-img-top mx-auto" src="https://www.alpescraft.fr/img/partners/alpesjug.png" alt="AlpesJUG">
-      </div>
-    </a>
-  </div>
-  
-  <div class="col my-auto partner-img">
-    <a href="http://grenoble.clubagilerhonealpes.org" target="_blank" about="CARA">
-      <div class="card border-0">
-        <img class="card-img-top mx-auto" src="https://www.alpescraft.fr/img/partners/cara.png" alt="CARA">
-      </div>
-    </a>
-  </div>
-  
-  <div class="col my-auto partner-img">
-    <a href="https://socrates-fr.github.io/" target="_blank" about="SoCraTes-FR">
-      <div class="card border-0">
-        <img class="card-img-top mx-auto" src="https://www.alpescraft.fr/img/partners/SoCraTes-FR.jpg" alt="SoCraTes-FR">
-      </div>
-    </a>
-  </div>
-  
-  <div class="col my-auto partner-img">
-    <a href="https://unepetitemousse.fr/" target="_blank" about="Une petite mousse">
-      <div class="card border-0">
-        <img class="card-img-top mx-auto" src="https://www.alpescraft.fr/img/partners/unepetitemousse.png" alt="Une petite mousse">
-      </div>
-    </a>
-  </div>
-  
-</div>
-
 </section>
 
 
 
-<footer class="footer bg-light">
+<i class="icon-arrow-up-circle m-auto text-primary top-button" id="top-button" onclick="topFunction()"></i>
+
+<footer class="footer">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
         <ul class="list-inline mb-2">
           <li class="list-inline-item">
             <a href="mailto:contact@alpescraft.fr">Contact</a>
-          </li>
-          <li class="list-inline-item">&sdot;</li>
-          <li class="list-inline-item">
-            <a href="#">Terms of Use</a>
-          </li>
-          <li class="list-inline-item">&sdot;</li>
-          <li class="list-inline-item">
-            <a href="#">Privacy Policy</a>
           </li>
         </ul>
         <p class="text-muted small mb-4 mb-lg-0">&copy; AlpesCraft 2019. All Rights Reserved.</p>
@@ -1376,6 +1235,28 @@ Nous verrons cela lors d&#39;une session de live coding pour revenir ou présent
 
     $('#' + talk).show();
 
+    window.addEventListener('scroll', scrollFunction);
+
+    function scrollFunction() {
+        setTimeout(function() {
+            const distanceY = window.pageYOffset || $(document).scrollTop();
+
+            if (distanceY > 50) {
+                document.getElementById("top-button").style.display = "block";
+                $('nav').addClass('shrink');
+            } else {
+                document.getElementById("top-button").style.display = "none";
+                $('nav').removeClass('shrink');
+            }
+        }, 1000);
+    }
+
+    
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
 </script>
+
 </body>
 </html>

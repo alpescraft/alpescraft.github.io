@@ -15,7 +15,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.alpescraft.fr/edition_2019/</guid>
-      <description>{{ partial &#34;head.html&#34; . }}  {{ partial &#34;previousEdition/nav.html&#34; . }} {{ partial &#34;previousEdition/header.html&#34; .Site.Params }} {{ range $section := .Site.Params.SectionsPrevious }} {{ partial $section $.Site.Params }}  {{ end }} {{ partial &#34;footer.html&#34; .Site.Params }}     function getURLParameter(sParam) { var sPageURL = window.location.search.substring(1); var sURLVariables = sPageURL.split(&#39;&amp;&#39;); for (var i = 0; i   </description>
+      <description>{{ partial &#34;head.html&#34; . }}  {{ partial &#34;previousEdition/nav.html&#34; . }} {{ partial &#34;previousEdition/header.html&#34; .Site.Params }} {{ range $section := .Site.Params.SectionsPrevious }} {{ partial $section $.Site.Params }}  {{ end }} {{ partial &#34;footer.html&#34; .Site.Params }}   </description>
     </item>
     
     <item>
