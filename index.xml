@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AlpesCraft</title>
@@ -15,7 +15,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.alpescraft.fr/edition_2019/</guid>
-      <description>{{ partial &#34;head.html&#34; . }}  {{ partial &#34;previousEdition/nav.html&#34; . }} {{ partial &#34;previousEdition/header.html&#34; .Site.Params }} {{ range $section := .Site.Params.SectionsPrevious }} {{ partial $section $.Site.Params }}  {{ end }} {{ partial &#34;footer.html&#34; .Site.Params }}   </description>
+      <description>{{ partial &#34;head.html&#34; . }} {{ partial &#34;previousEdition/nav.html&#34; . }}    AlpesCraft Édition 2019, 13 &amp; 14 Juin 2 jours, 6 ateliers, 13 conférences, 110 participants      Revivez les conférences  Télécharger le programme en PDF         Équiper sa voie  thomas pierrain
+42 skillz
+  au-delà de la passion, faire du logiciel pour moi c’est aider les autres à résoudre leurs problèmes.</description>
     </item>
     
     <item>
