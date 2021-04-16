@@ -17,12 +17,9 @@
  {{ end }}  {{ range $spk := $conf.speakers }} {{ $speaker := index $.Site.Params.speakersmap (string $spk.speakerid) }} {{ if $speaker.href }} {{ end }} {{ $speaker." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://www.alpescraft.fr/session/" />
-<meta property="og:image" content="https://www.alpescraft.fr/img/logo/color/03-AlpesCraft_Couleurs-M.png"/>
 
 
-    <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://www.alpescraft.fr/img/logo/color/03-AlpesCraft_Couleurs-M.png"/>
-
+    <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content=""/>
 <meta name="twitter:description" content="{{ partial &#34;head.html&#34; . }}  {{ partial &#34;previousEdition/nav.html&#34; . }} {{ range $sched, $slot := $.Site.Params.schedule }} {{ if $slot.conferences }} {{ range $index, $conf := $slot.conferences }} -- {{ .name }} {{ .description }}
 {{ if .details }}  {{ .details }}
