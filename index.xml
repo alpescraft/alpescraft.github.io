@@ -26,9 +26,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.alpescraft.fr/session/</guid>
-      <description>{{ partial &#34;head.html&#34; . }}  {{ partial &#34;previousEdition/nav.html&#34; . }} {{ range $sched, $slot := $.Site.Params.schedule }} {{ if $slot.conferences }} {{ range $index, $conf := $slot.conferences }} -- {{ .name }} {{ .description }}
-{{ if .details }}  {{ .details }}
- {{ end }}  {{ range $spk := $conf.speakers }} {{ $speaker := index $.Site.Params.speakersmap (string $spk.speakerid) }} {{ if $speaker.href }} {{ end }} {{ $speaker.</description>
+      <description>{{ partial &#34;head.html&#34; . }}  {{ partial &#34;previousEdition/nav.html&#34; . }} {{ $speakersmap := $.Site.Params.speakersmap }} {{ range $index, $slot := $.Site.Params.schedule }} {{ range $spk := $slot.speakers }} {{ $speaker := index $speakersmap (string $spk.speakerid) }} {{ if $speaker.href }} {{ end }}  {{ $speaker.name }}
+  {{ if $speaker.href }}  {{ end }} {{ end }}     {{ .name }} {{ .date }}  Ajouter au calendrier        {{ .</description>
     </item>
     
   </channel>
