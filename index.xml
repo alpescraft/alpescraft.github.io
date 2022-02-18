@@ -22,6 +22,16 @@
     
     <item>
       <title></title>
+      <link>https://www.alpescraft.fr/edition_2021/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.alpescraft.fr/edition_2021/</guid>
+      <description>{{ partial &#34;head.html&#34; . }} {{ partial &#34;previousEdition/nav.html&#34; . }}    AlpesCraft Édition 2021, du 7 au 11 Juin Édition en ligne       
+       L&amp;#39;adoption du Craft dans le monde professionnel  Lundi 07 Juin - 20h Lors de cette session nous vous proposons de participer à plusieurs discussions autour du thème du craft (bonnes pratiques dans le monde du développement logiciel).</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://www.alpescraft.fr/session/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
