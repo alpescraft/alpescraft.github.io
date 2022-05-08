@@ -16,25 +16,22 @@
   {{ if $speaker.href }}  {{ end }} {{ end }}     {{ .name }} {{ .date }}  Ajouter au calendrier        {{ ." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://www.alpescraft.fr/session/" />
-<meta property="og:image" content="https://www.alpescraft.fr/img/logo/color/03-AlpesCraft_Couleurs-M.png"/>
+<meta property="og:image" content="https://www.alpescraft.fr/img/logo/color/03-AlpesCraft_Couleurs-M.webp"/>
 
 
     <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://www.alpescraft.fr/img/logo/color/03-AlpesCraft_Couleurs-M.png"/>
+<meta name="twitter:image" content="https://www.alpescraft.fr/img/logo/color/03-AlpesCraft_Couleurs-M.webp"/>
 
 <meta name="twitter:title" content=""/>
 <meta name="twitter:description" content="{{ partial &#34;head.html&#34; . }}  {{ partial &#34;previousEdition/nav.html&#34; . }} {{ $speakersmap := $.Site.Params.speakersmap }} {{ range $index, $slot := $.Site.Params.schedule }} {{ range $spk := $slot.speakers }} {{ $speaker := index $speakersmap (string $spk.speakerid) }} {{ if $speaker.href }} {{ end }}  {{ $speaker.name }}
   {{ if $speaker.href }}  {{ end }} {{ end }}     {{ .name }} {{ .date }}  Ajouter au calendrier        {{ ."/>
 
 
-    <link rel="shortcut icon" href="https://www.alpescraft.fr/img/logo/color/04-AlpesCraft_Couleurs-S.png" type="image/x-icon">
-    <link rel="apple-touch-icon" href="https://www.alpescraft.fr/img/logo/color/04-AlpesCraft_Couleurs-S.png">
-
-    <link rel="stylesheet" type="text/css" href="https://www.alpescraft.fr/css/main.css">
+    <link rel="shortcut icon" href="https://www.alpescraft.fr/img/logo/color/04-AlpesCraft_Couleurs-S.webp" type="image/x-icon">
+    <link rel="apple-touch-icon" href="https://www.alpescraft.fr/img/logo/color/04-AlpesCraft_Couleurs-S.webp">
 
     
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
     
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -42,10 +39,10 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
     
     <link rel="stylesheet" href="https://www.alpescraft.fr/scss/landing-page.min.css" media="screen">
+    
+    <link href="https://www.alpescraft.fr/css/main.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -53,14 +50,14 @@
 
 <nav class="navbar navbar-expand-lg navbar-light sticky-top">
     <a class="navbar-brand" href="https://www.alpescraft.fr/">
-        <img src="https://www.alpescraft.fr/img/logo/color/04-AlpesCraft_Couleurs-S.png" class="navbar-brand-logo" alt="AlpesCraft logo">
+        <img loading="lazy" src="https://www.alpescraft.fr/img/logo/color/04-AlpesCraft_Couleurs-S.webp" class="navbar-brand-logo" alt="AlpesCraft logo">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
             aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarToggler">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav navbar-nav-scroll nav-justified w-100">
             
             <li class="nav-item">
                 
@@ -166,7 +163,7 @@
                         
                             <li>
                                 <div class="speaker">
-                                    <img src="https://www.alpescraft.fr/img/speakers/sarah_scarratt.jpg" alt="Sarah Scarratt">
+                                    <img loading="lazy" src="https://www.alpescraft.fr/img/speakers/sarah_scarratt.jpg" alt="Sarah Scarratt">
                                     <p>Sarah Scarratt</p>
                                 </div>
                             </li>
@@ -190,13 +187,13 @@
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a target="_blank" class="dropdown-item" href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20220112T180000Z%2F20220112T200000Z&details=%3cp%3eAu%20cours%20de%20cet%20atelier%20interactif%2c%20nous%20explorerons%20le%20Clean%20Language%20et%20comment%20il%20peut%20%c3%aatre%20utilis%c3%a9%20pour%20en%20savoir%20plus%20sur%20vous-m%c3%aame%20et%20sur%20les%20autres%20afin%20de%20c%c3%a9l%c3%a9brer%20nos%20diff%c3%a9rences%20au%20lieu%20de%20r%c3%a9agir%20avec%20tensions%20et%20non-dits.%3c%2fp%3e%0aLes%20questions%20Clean%20ont%20%c3%a9t%c3%a9%20affin%c3%a9es%20au%20fil%20de%20nombreuses%20ann%c3%a9es%20et%20sont%20con%c3%a7ues%20pour%20permettre%20au%20coach%20d%27%c3%a9viter%20d%27ajouter%20ses%20propres%20pr%c3%a9suppos%c3%a9s%20ou%20jugements%2c%20et%20d%27%c3%a9couter%20de%20fa%c3%a7on%20exquise.%20Enseigner%20ces%20questions%20aux%20%c3%a9quipes%20les%20invite%20%c3%a0%20devenir%20curieux%20les%20uns%20des%20autres%20et%20%c3%a0%20ne%20plus%20d%c3%a9pendre%20du%20ScrumMaster%20ou%20du%20Coach%20Agile%20pour%20communiquer.%20%3cbr%20%2f%3e%20Le%20Clean%20Language%20est%20simple%20%c3%a0%20comprendre%20et%20difficile%20%c3%a0%20ma%c3%aetriser.%20Au%20cours%20de%20cette%20session%2c%20nous%20vous%20ferons%20utiliser%20les%20questions%20Clean%20et%20vous%20inviterons%20%c3%a0%20r%c3%a9fl%c3%a9chir%20%c3%a0%20la%20diff%c3%a9rence%20que%20cela%20pourrait%20faire%20si%20vous%20les%20utilisiez%20au%20travail%20%28ou%20%c3%a0%20la%20maison%20%21%29.%20%20Il%20y%20aura%20d%e2%80%99autres%20ateliers%20vendredi%20selon%20la%20demande.%20%3cbr%20%2f%3e%3cbr%20%2f%3e%0aSi%20vous%20souhaitez%20en%20savoir%20plus%20sur%20le%20Clean%20Language%20avant%20la%20session%2c%20ces%20deux%20liens%20vous%20aideront%20%28en%20anglais%29%20%3cul%3e%20%3cli%3e%3ca%20href%3d%22https%3a%2f%2fwww.youtube.com%2fwatch%3fv%3daVvcU5gG4KU%22%3eCaitlin%20Walker%20Tedx%3c%2fa%3e%3c%2fli%3e%20%3cli%3e%3ca%20href%3d%22https%3a%2f%2fwww.youtube.com%2fwatch%3fv%3d_gSlRqfPT4E%22%3eQu%27est-ce%20que%20la%20mod%c3%a9lisation%20syst%c3%a9mique%3c%2fa%3e%3c%2fli%3e%20%3c%2ful%3e%20&text=Introduction%20au%20Clean%20Language">
-                                    <img src="img/logo/gmail_icon.png" width="32" height="32">
+                                    <img loading="lazy" src="img/logo/gmail_icon.png" width="32" height="32">
                                 </a>
                                 <a target="_blank" class="dropdown-item" href="https://outlook.office.com/calendar/0/deeplink/compose?body=%3cp%3eAu%20cours%20de%20cet%20atelier%20interactif%2c%20nous%20explorerons%20le%20Clean%20Language%20et%20comment%20il%20peut%20%c3%aatre%20utilis%c3%a9%20pour%20en%20savoir%20plus%20sur%20vous-m%c3%aame%20et%20sur%20les%20autres%20afin%20de%20c%c3%a9l%c3%a9brer%20nos%20diff%c3%a9rences%20au%20lieu%20de%20r%c3%a9agir%20avec%20tensions%20et%20non-dits.%3c%2fp%3e%0aLes%20questions%20Clean%20ont%20%c3%a9t%c3%a9%20affin%c3%a9es%20au%20fil%20de%20nombreuses%20ann%c3%a9es%20et%20sont%20con%c3%a7ues%20pour%20permettre%20au%20coach%20d%27%c3%a9viter%20d%27ajouter%20ses%20propres%20pr%c3%a9suppos%c3%a9s%20ou%20jugements%2c%20et%20d%27%c3%a9couter%20de%20fa%c3%a7on%20exquise.%20Enseigner%20ces%20questions%20aux%20%c3%a9quipes%20les%20invite%20%c3%a0%20devenir%20curieux%20les%20uns%20des%20autres%20et%20%c3%a0%20ne%20plus%20d%c3%a9pendre%20du%20ScrumMaster%20ou%20du%20Coach%20Agile%20pour%20communiquer.%20%3cbr%20%2f%3e%20Le%20Clean%20Language%20est%20simple%20%c3%a0%20comprendre%20et%20difficile%20%c3%a0%20ma%c3%aetriser.%20Au%20cours%20de%20cette%20session%2c%20nous%20vous%20ferons%20utiliser%20les%20questions%20Clean%20et%20vous%20inviterons%20%c3%a0%20r%c3%a9fl%c3%a9chir%20%c3%a0%20la%20diff%c3%a9rence%20que%20cela%20pourrait%20faire%20si%20vous%20les%20utilisiez%20au%20travail%20%28ou%20%c3%a0%20la%20maison%20%21%29.%20%20Il%20y%20aura%20d%e2%80%99autres%20ateliers%20vendredi%20selon%20la%20demande.%20%3cbr%20%2f%3e%3cbr%20%2f%3e%0aSi%20vous%20souhaitez%20en%20savoir%20plus%20sur%20le%20Clean%20Language%20avant%20la%20session%2c%20ces%20deux%20liens%20vous%20aideront%20%28en%20anglais%29%20%3cul%3e%20%3cli%3e%3ca%20href%3d%22https%3a%2f%2fwww.youtube.com%2fwatch%3fv%3daVvcU5gG4KU%22%3eCaitlin%20Walker%20Tedx%3c%2fa%3e%3c%2fli%3e%20%3cli%3e%3ca%20href%3d%22https%3a%2f%2fwww.youtube.com%2fwatch%3fv%3d_gSlRqfPT4E%22%3eQu%27est-ce%20que%20la%20mod%c3%a9lisation%20syst%c3%a9mique%3c%2fa%3e%3c%2fli%3e%20%3c%2ful%3e%20&enddt=2022-01-12T20%3A00%3A00%2B00%3A00&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-01-12T18%3A00%3A00%2B00%3A00&subject=Introduction%20au%20Clean%20Language">
-                                    <img src="img/logo/outlook.png" width="32" height="32">
+                                    <img loading="lazy" src="img/logo/outlook.png" width="32" height="32">
                                 </a>
                                 <a target="_blank" class="dropdown-item" href="https://outlook.office.com/calendar/0/deeplink/compose?body=%3cp%3eAu%20cours%20de%20cet%20atelier%20interactif%2c%20nous%20explorerons%20le%20Clean%20Language%20et%20comment%20il%20peut%20%c3%aatre%20utilis%c3%a9%20pour%20en%20savoir%20plus%20sur%20vous-m%c3%aame%20et%20sur%20les%20autres%20afin%20de%20c%c3%a9l%c3%a9brer%20nos%20diff%c3%a9rences%20au%20lieu%20de%20r%c3%a9agir%20avec%20tensions%20et%20non-dits.%3c%2fp%3e%0aLes%20questions%20Clean%20ont%20%c3%a9t%c3%a9%20affin%c3%a9es%20au%20fil%20de%20nombreuses%20ann%c3%a9es%20et%20sont%20con%c3%a7ues%20pour%20permettre%20au%20coach%20d%27%c3%a9viter%20d%27ajouter%20ses%20propres%20pr%c3%a9suppos%c3%a9s%20ou%20jugements%2c%20et%20d%27%c3%a9couter%20de%20fa%c3%a7on%20exquise.%20Enseigner%20ces%20questions%20aux%20%c3%a9quipes%20les%20invite%20%c3%a0%20devenir%20curieux%20les%20uns%20des%20autres%20et%20%c3%a0%20ne%20plus%20d%c3%a9pendre%20du%20ScrumMaster%20ou%20du%20Coach%20Agile%20pour%20communiquer.%20%3cbr%20%2f%3e%20Le%20Clean%20Language%20est%20simple%20%c3%a0%20comprendre%20et%20difficile%20%c3%a0%20ma%c3%aetriser.%20Au%20cours%20de%20cette%20session%2c%20nous%20vous%20ferons%20utiliser%20les%20questions%20Clean%20et%20vous%20inviterons%20%c3%a0%20r%c3%a9fl%c3%a9chir%20%c3%a0%20la%20diff%c3%a9rence%20que%20cela%20pourrait%20faire%20si%20vous%20les%20utilisiez%20au%20travail%20%28ou%20%c3%a0%20la%20maison%20%21%29.%20%20Il%20y%20aura%20d%e2%80%99autres%20ateliers%20vendredi%20selon%20la%20demande.%20%3cbr%20%2f%3e%3cbr%20%2f%3e%0aSi%20vous%20souhaitez%20en%20savoir%20plus%20sur%20le%20Clean%20Language%20avant%20la%20session%2c%20ces%20deux%20liens%20vous%20aideront%20%28en%20anglais%29%20%3cul%3e%20%3cli%3e%3ca%20href%3d%22https%3a%2f%2fwww.youtube.com%2fwatch%3fv%3daVvcU5gG4KU%22%3eCaitlin%20Walker%20Tedx%3c%2fa%3e%3c%2fli%3e%20%3cli%3e%3ca%20href%3d%22https%3a%2f%2fwww.youtube.com%2fwatch%3fv%3d_gSlRqfPT4E%22%3eQu%27est-ce%20que%20la%20mod%c3%a9lisation%20syst%c3%a9mique%3c%2fa%3e%3c%2fli%3e%20%3c%2ful%3e%20&enddt=2022-01-12T20%3A00%3A00%2B00%3A00&location=New%20Earth&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-01-12T18%3A00%3A00%2B00%3A00&subject=Introduction%20au%20Clean%20Language">
-                                    <img src="img/logo/office_365.png" width="32" height="32">
+                                    <img loading="lazy" src="img/logo/office_365.png" width="32" height="32">
                                 </a>
                             </div>
                         </div>
@@ -262,7 +259,7 @@ Sarah dirige sa propre entreprise depuis 20 ans et possède une vaste expérienc
                         
                             <li>
                                 <div class="speaker">
-                                    <img src="https://www.alpescraft.fr/img/logo/color/03-AlpesCraft_Couleurs-M.png" alt="Philippe Bourgau">
+                                    <img loading="lazy" src="https://www.alpescraft.fr/img/logo/color/03-AlpesCraft_Couleurs-M.webp" alt="Philippe Bourgau">
                                     <p>Philippe Bourgau</p>
                                 </div>
                             </li>
@@ -286,13 +283,13 @@ Sarah dirige sa propre entreprise depuis 20 ans et possède une vaste expérienc
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a target="_blank" class="dropdown-item" href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20220112T180000Z%2F20220112T200000Z&details=Que%20faites%20vous%20si%20votre%20entrainement%20devient%20trop%20facile%3f%20Ajoutez%20des%20poids%21%20Peut-on%20faire%20cela%20avec%20des%20code%20katas%3f%20%3cbr%2f%3e%20Le%20design%20incr%c3%a9mental%20consiste%20%c3%a0%20arr%c3%aater%20de%20penser%20au%20design%20comme%20grav%c3%a9%20dans%20le%20marbre%2c%20mais%20comme%20une%20infinit%c3%a9%20de%20petits%20pas.%20Maitriser%20les%20petit%20pas%20est%20un%20pr%c3%a9-requis%20pour%20le%20design%20incr%c3%a9mental.%20Mais%20comment%20enseigner%20les%20petits%20pas%20%c3%a0%20vos%20coll%c3%a8gues%20exp%c3%a9riment%c3%a9s%20qui%20se%20%22d%c3%a9brouillent%22%20pour%20r%c3%a9soudre%20un%20kata%20en%20une%20poign%c3%a9e%20de%20grands%20pas%3f%20%3cbr%2f%3e%20TCR%20%28test%20%26%26%20commit%20%7c%7c%20revert%29%20est%20une%20machine%20d%27entrainement%20au%20petits%20pas%20%c3%a0%20ajouter%20%c3%a0%20vos%20katas%21%20En%20plus%20d%27enseigner%20les%20petits%20pas%2c%20cet%20outil%3a%20%3cbr%2f%3e%20%3cul%3e%20%3cli%3eest%20un%20coach%20qui%20rappel%20aux%20participants%20de%20prendre%20des%20petits%20pas%3c%2fli%3e%20%3cli%3eest%20moins%20%c3%a9nervant%20qu%27un%20coach%20humain%20%f0%9f%98%89%20parce%20que%20ce%20n%27est%20qu%27un%20script%21%3c%2fli%3e%20%3cli%3eest%20plus%20%22vendable%22%20que%20les%20katas%20de%20TDD%2c%20parce%20que%20ce%20n%27est%20qu%27un%20outil%20d%27entrainement%21%3c%2fli%3e%20%3cli%3eest%20amusant%20gr%c3%a2ce%20%c3%a0%20sa%20touche%20de%20gamification%3c%2fli%3e%20%3cli%3eimpacte%20directement%20votre%20programmation%20quotidienne%2c%20m%c3%aame%20dans%20le%20code%20legacy%2c%20en%20enseignant%20la%20taille%20du%20pas%20qu%27on%20est%20capable%20de%20faire%20sans%20erreur%21%3c%2fli%3e%20%3cli%3efonctionne%20parfaitement%20%c3%a0%20distance%3c%2fli%3e%20%3c%2ful%3e%20%3cbr%2f%3e%20Rejoignez%20cette%20session%2c%20d%c3%a9couvrez%20TCR%2c%20pour%20enseigner%20le%20design%20incr%c3%a9mental%20%c3%a0%20votre%20%c3%a9quipe%20MAINTENANT%21&text=Testez%20vos%20comp%c3%a9tences%20de%20refactoring%20sur%20la%20machine%20d%27entrainement%20TCR%20%21">
-                                    <img src="img/logo/gmail_icon.png" width="32" height="32">
+                                    <img loading="lazy" src="img/logo/gmail_icon.png" width="32" height="32">
                                 </a>
                                 <a target="_blank" class="dropdown-item" href="https://outlook.office.com/calendar/0/deeplink/compose?body=Que%20faites%20vous%20si%20votre%20entrainement%20devient%20trop%20facile%3f%20Ajoutez%20des%20poids%21%20Peut-on%20faire%20cela%20avec%20des%20code%20katas%3f%20%3cbr%2f%3e%20Le%20design%20incr%c3%a9mental%20consiste%20%c3%a0%20arr%c3%aater%20de%20penser%20au%20design%20comme%20grav%c3%a9%20dans%20le%20marbre%2c%20mais%20comme%20une%20infinit%c3%a9%20de%20petits%20pas.%20Maitriser%20les%20petit%20pas%20est%20un%20pr%c3%a9-requis%20pour%20le%20design%20incr%c3%a9mental.%20Mais%20comment%20enseigner%20les%20petits%20pas%20%c3%a0%20vos%20coll%c3%a8gues%20exp%c3%a9riment%c3%a9s%20qui%20se%20%22d%c3%a9brouillent%22%20pour%20r%c3%a9soudre%20un%20kata%20en%20une%20poign%c3%a9e%20de%20grands%20pas%3f%20%3cbr%2f%3e%20TCR%20%28test%20%26%26%20commit%20%7c%7c%20revert%29%20est%20une%20machine%20d%27entrainement%20au%20petits%20pas%20%c3%a0%20ajouter%20%c3%a0%20vos%20katas%21%20En%20plus%20d%27enseigner%20les%20petits%20pas%2c%20cet%20outil%3a%20%3cbr%2f%3e%20%3cul%3e%20%3cli%3eest%20un%20coach%20qui%20rappel%20aux%20participants%20de%20prendre%20des%20petits%20pas%3c%2fli%3e%20%3cli%3eest%20moins%20%c3%a9nervant%20qu%27un%20coach%20humain%20%f0%9f%98%89%20parce%20que%20ce%20n%27est%20qu%27un%20script%21%3c%2fli%3e%20%3cli%3eest%20plus%20%22vendable%22%20que%20les%20katas%20de%20TDD%2c%20parce%20que%20ce%20n%27est%20qu%27un%20outil%20d%27entrainement%21%3c%2fli%3e%20%3cli%3eest%20amusant%20gr%c3%a2ce%20%c3%a0%20sa%20touche%20de%20gamification%3c%2fli%3e%20%3cli%3eimpacte%20directement%20votre%20programmation%20quotidienne%2c%20m%c3%aame%20dans%20le%20code%20legacy%2c%20en%20enseignant%20la%20taille%20du%20pas%20qu%27on%20est%20capable%20de%20faire%20sans%20erreur%21%3c%2fli%3e%20%3cli%3efonctionne%20parfaitement%20%c3%a0%20distance%3c%2fli%3e%20%3c%2ful%3e%20%3cbr%2f%3e%20Rejoignez%20cette%20session%2c%20d%c3%a9couvrez%20TCR%2c%20pour%20enseigner%20le%20design%20incr%c3%a9mental%20%c3%a0%20votre%20%c3%a9quipe%20MAINTENANT%21&enddt=2022-01-12T20%3A00%3A00%2B00%3A00&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-01-12T18%3A00%3A00%2B00%3A00&subject=Testez%20vos%20comp%c3%a9tences%20de%20refactoring%20sur%20la%20machine%20d%27entrainement%20TCR%20%21">
-                                    <img src="img/logo/outlook.png" width="32" height="32">
+                                    <img loading="lazy" src="img/logo/outlook.png" width="32" height="32">
                                 </a>
                                 <a target="_blank" class="dropdown-item" href="https://outlook.office.com/calendar/0/deeplink/compose?body=Que%20faites%20vous%20si%20votre%20entrainement%20devient%20trop%20facile%3f%20Ajoutez%20des%20poids%21%20Peut-on%20faire%20cela%20avec%20des%20code%20katas%3f%20%3cbr%2f%3e%20Le%20design%20incr%c3%a9mental%20consiste%20%c3%a0%20arr%c3%aater%20de%20penser%20au%20design%20comme%20grav%c3%a9%20dans%20le%20marbre%2c%20mais%20comme%20une%20infinit%c3%a9%20de%20petits%20pas.%20Maitriser%20les%20petit%20pas%20est%20un%20pr%c3%a9-requis%20pour%20le%20design%20incr%c3%a9mental.%20Mais%20comment%20enseigner%20les%20petits%20pas%20%c3%a0%20vos%20coll%c3%a8gues%20exp%c3%a9riment%c3%a9s%20qui%20se%20%22d%c3%a9brouillent%22%20pour%20r%c3%a9soudre%20un%20kata%20en%20une%20poign%c3%a9e%20de%20grands%20pas%3f%20%3cbr%2f%3e%20TCR%20%28test%20%26%26%20commit%20%7c%7c%20revert%29%20est%20une%20machine%20d%27entrainement%20au%20petits%20pas%20%c3%a0%20ajouter%20%c3%a0%20vos%20katas%21%20En%20plus%20d%27enseigner%20les%20petits%20pas%2c%20cet%20outil%3a%20%3cbr%2f%3e%20%3cul%3e%20%3cli%3eest%20un%20coach%20qui%20rappel%20aux%20participants%20de%20prendre%20des%20petits%20pas%3c%2fli%3e%20%3cli%3eest%20moins%20%c3%a9nervant%20qu%27un%20coach%20humain%20%f0%9f%98%89%20parce%20que%20ce%20n%27est%20qu%27un%20script%21%3c%2fli%3e%20%3cli%3eest%20plus%20%22vendable%22%20que%20les%20katas%20de%20TDD%2c%20parce%20que%20ce%20n%27est%20qu%27un%20outil%20d%27entrainement%21%3c%2fli%3e%20%3cli%3eest%20amusant%20gr%c3%a2ce%20%c3%a0%20sa%20touche%20de%20gamification%3c%2fli%3e%20%3cli%3eimpacte%20directement%20votre%20programmation%20quotidienne%2c%20m%c3%aame%20dans%20le%20code%20legacy%2c%20en%20enseignant%20la%20taille%20du%20pas%20qu%27on%20est%20capable%20de%20faire%20sans%20erreur%21%3c%2fli%3e%20%3cli%3efonctionne%20parfaitement%20%c3%a0%20distance%3c%2fli%3e%20%3c%2ful%3e%20%3cbr%2f%3e%20Rejoignez%20cette%20session%2c%20d%c3%a9couvrez%20TCR%2c%20pour%20enseigner%20le%20design%20incr%c3%a9mental%20%c3%a0%20votre%20%c3%a9quipe%20MAINTENANT%21&enddt=2022-01-12T20%3A00%3A00%2B00%3A00&location=New%20Earth&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-01-12T18%3A00%3A00%2B00%3A00&subject=Testez%20vos%20comp%c3%a9tences%20de%20refactoring%20sur%20la%20machine%20d%27entrainement%20TCR%20%21">
-                                    <img src="img/logo/office_365.png" width="32" height="32">
+                                    <img loading="lazy" src="img/logo/office_365.png" width="32" height="32">
                                 </a>
                             </div>
                         </div>
@@ -375,7 +372,7 @@ Sarah dirige sa propre entreprise depuis 20 ans et possède une vaste expérienc
       <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
         <ul class="list-inline mb-0">
           <li class="list-inline-item mr-3">
-            <a href="https://twitter.com/AlpesCraft">
+            <a aria-label="Compte Twitter" href="https://twitter.com/AlpesCraft">
               <i class="fab fa-twitter-square fa-2x fa-fw"></i>
             </a>
           </li>
@@ -386,52 +383,13 @@ Sarah dirige sa propre entreprise depuis 20 ans et possède une vaste expérienc
 </footer>
 
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 
-<script>
-    function getURLParameter(sParam) {
-        var sPageURL = window.location.search.substring(1);
-        var sURLVariables = sPageURL.split('&');
-        for (var i = 0; i < sURLVariables.length; i++) {
-            var sParameterName = sURLVariables[i].split('=');
-            if (sParameterName[0] == sParam) {
-                return sParameterName[1];
-            }
-        }
 
-    }
-
-    var talk = getURLParameter('talk');
-
-    $('#' + talk).show();
-
-    window.addEventListener('scroll', scrollFunction);
-
-    function scrollFunction() {
-        setTimeout(function() {
-            const distanceY = window.pageYOffset || $(document).scrollTop();
-
-            if (distanceY > 50) {
-                document.getElementById("top-button").style.display = "block";
-                $('nav').addClass('shrink');
-            } else {
-                document.getElementById("top-button").style.display = "none";
-                $('nav').removeClass('shrink');
-            }
-        }, 1000);
-    }
-
-    
-    function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-    }
-</script>
+<script src="https://www.alpescraft.fr/js/alpescraft.min.js"></script>
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
