@@ -37,7 +37,7 @@
       
       <guid>https://www.alpescraft.fr/session/</guid>
       <description>{{ partial &#34;head.html&#34; . }}  {{ partial &#34;previousEdition/nav.html&#34; . }} {{ $speakersmap := $.Site.Params.speakersmap }} {{ range $index, $slot := $.Site.Params.schedule }} {{ range $spk := $slot.speakers }} {{ $speaker := index $speakersmap (string $spk.speakerid) }} {{ if $speaker.href }} {{ end }}  {{ $speaker.name }}
-  {{ if $speaker.href }}  {{ end }} {{ end }}     {{ .name }} {{ .date }}  Ajouter au calendrier        {{ .</description>
+  {{ if $speaker.href }}  {{ end }} {{ end }}     {{ .name }} {{ if .</description>
     </item>
     
     <item>
