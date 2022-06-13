@@ -36,7 +36,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.alpescraft.fr/edition_2022/</guid>
-      <description>{{ partial &#34;head.html&#34; . }} {{ partial &#34;index/nav.html&#34; . }}    AlpesCraft Édition 2022, du 9 au 10 Juin 2 jours, 6 ateliers, 15 conférences, 250 participants      Revivez la conférence Voir toutes les photos     David Gageot
+      <description>{{ partial &#34;head.html&#34; . }} {{ partial &#34;index/nav.html&#34; . }}    AlpesCraft Édition 2022, du 9 au 10 Juin 2 jours, 6 ateliers, 15 conférences, 240 participants      Revivez la conférence Voir toutes les photos     David Gageot
       Keynote - Un monolithe pour 200 développeurs : avantages et défis. Développer sur un gros monolith Rails ne se fait pas sans embûche.</description>
     </item>
     
