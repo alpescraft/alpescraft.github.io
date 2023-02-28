@@ -11,6 +11,15 @@
     
     <item>
       <title></title>
+      <link>https://www.alpescraft.fr/association/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.alpescraft.fr/association/</guid>
+      <description>{{ partial &#34;head.html&#34; . }} {{ partial &#34;previousEdition/nav.html&#34; . }}    AlpesCraft       L&#39;Association AlpesCraft Cette association a pour objet de promouvoir l’artisanat logiciel (“craft”) pour tous, et donc les bonnes pratiques pour développer de bons produits logiciels, dans la région Grenobloise et dans les Alpes, avec notamment les actions ou activités suivantes :  L’organisation de la conférence annuelle “AlpesCraft” L’organisation de rencontres régulières “meetup” autour du Software Crafting L’animation d’ateliers de mise en pratique et d’échanges entre développeurs (“coding-dojo”) Et toute autre animation, activité ou intervention en lien avec la promotion de l’artisanat logiciel (“craft”) pour tous    {{ partial &#34;</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://www.alpescraft.fr/edition_2019/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
