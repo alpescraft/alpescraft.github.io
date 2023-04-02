@@ -65,7 +65,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.alpescraft.fr/sponsoring/</guid>
-      <description>{{ partial &#34;head.html&#34; . }} {{ partial &#34;previousEdition/nav.html&#34; . }}    AlpesCraft      Réaliser un produit logiciel qui correspond aux besoins de nos utilisateurs et qui soit facile à faire évoluer est un Graal difficile à atteindre.   Cela demande à la fois une excellence technique, une maîtrise des bonnes pratiques sur l&#39;ensemble de la chaîne de production, des compétences de coopération et de communication avec l&#39;ensemble des acteurs, un paradigme de travail d&#39;apprentissage (The Build-Measure-Learn Feedback Loop).</description>
+      <description>{{ partial &#34;head.html&#34; . }} {{ partial &#34;previousEdition/nav.html&#34; . }}    AlpesCraft      Nous sommes ravis de voir que la conférence que nous organisons suscite autant d&#39;intérêt et d&#39;enthousiasme. Nous tenons à vous informer que toutes les places de sponsoring Mentor pour cette année ont été attribuées. Nous sommes désolés pour ceux d&#39;entre vous qui n&#39;ont pas eu l&#39;opportunité de devenir mentor cette année, mais nous serions heureux de vous compter parmi les sponsors Apprentis.</description>
     </item>
     
   </channel>
