@@ -51,6 +51,15 @@
     
     <item>
       <title></title>
+      <link>https://www.alpescraft.fr/edition_2023/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.alpescraft.fr/edition_2023/</guid>
+      <description>{{ partial &#34;head.html&#34; . }} {{ partial &#34;index/nav.html&#34; . }}    AlpesCraft Édition 2023, du 1 au 2 Juin 2 jours, 7 ateliers, 12 conférences, 270 participants      Revivez la conférence Voir toutes les photos     Jeudi 1 Juin  Premiers pas dans le craft Vous découvrez le craft et vous chercher un ensemble de pratiques ou d’idées pour vous permettre de découvrir ce nouvel univers qui s’ouvre à vous.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://www.alpescraft.fr/session/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
