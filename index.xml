@@ -15,7 +15,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.alpescraft.fr/association/</guid>
-      <description>{{ partial &#34;head.html&#34; . }} {{ partial &#34;previousEdition/nav.html&#34; . }}    AlpesCraft       L&#39;Association AlpesCraft Cette association a pour objet de promouvoir l’artisanat logiciel (“craft”) pour tous, et donc les bonnes pratiques pour développer de bons produits logiciels, dans la région Grenobloise et dans les Alpes, avec notamment les actions ou activités suivantes :  L’organisation de la conférence annuelle “AlpesCraft” L’organisation de rencontres régulières “meetup” autour du Software Crafting L’animation d’ateliers de mise en pratique et d’échanges entre développeurs (“coding-dojo”) Et toute autre animation, activité ou intervention en lien avec la promotion de l’artisanat logiciel (“craft”) pour tous    {{ partial &#34;</description>
+      <description>{{ partial &#34;head.html&#34; (dict &#34;context&#34; . &#34;pageTitle&#34; &#34;L&#39;association&#34; &#34;pageDescription&#34; &#34;Découvrir, apprendre et se perfectionner&#34;) }} {{ partial &#34;previousEdition/nav.html&#34; . }}    AlpesCraft       L&#39;Association AlpesCraft Cette association a pour objet de promouvoir l’artisanat logiciel (“craft”) pour tous, et donc les bonnes pratiques pour développer de bons produits logiciels, dans la région Grenobloise et dans les Alpes, avec notamment les actions ou activités suivantes :  L’organisation de la conférence annuelle “AlpesCraft” L’organisation de rencontres régulières “meetup” autour du Software Crafting L’animation d’ateliers de mise en pratique et d’échanges entre développeurs (“coding-dojo”) Et toute autre animation, activité ou intervention en lien avec la promotion de l’artisanat logiciel (“craft”) pour tous    {{ partial &#34;</description>
     </item>
     
     <item>
@@ -24,7 +24,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.alpescraft.fr/edition_2019/</guid>
-      <description>{{ partial &#34;head.html&#34; . }} {{ partial &#34;index/nav.html&#34; . }}    AlpesCraft Édition 2019, 13 &amp; 14 Juin 2 jours, 6 ateliers, 13 conférences, 110 participants      Revivez les conférences  Télécharger le programme en PDF         Équiper sa voie  Thomas Pierrain
+      <description>{{ partial &#34;head.html&#34; (dict &#34;context&#34; . &#34;pageTitle&#34; &#34;Session 2019&#34; &#34;pageDescription&#34; &#34;Découvrir, apprendre et se perfectionner&#34;) }} {{ partial &#34;index/nav.html&#34; . }}    AlpesCraft Édition 2019, 13 &amp; 14 Juin 2 jours, 6 ateliers, 13 conférences, 110 participants      Revivez les conférences  Télécharger le programme en PDF         Équiper sa voie  Thomas Pierrain
 42 skillz
   au-delà de la passion, faire du logiciel pour moi c’est aider les autres à résoudre leurs problèmes.</description>
     </item>
@@ -35,7 +35,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.alpescraft.fr/edition_2021/</guid>
-      <description>{{ partial &#34;head.html&#34; . }} {{ partial &#34;index/nav.html&#34; . }}    AlpesCraft Édition 2021, du 7 au 11 Juin Édition en ligne       
+      <description>{{ partial &#34;head.html&#34; (dict &#34;context&#34; . &#34;pageTitle&#34; &#34;Session 2021&#34; &#34;pageDescription&#34; &#34;Découvrir, apprendre et se perfectionner&#34;) }} {{ partial &#34;index/nav.html&#34; . }}    AlpesCraft Édition 2021, du 7 au 11 Juin Édition en ligne       
        L&amp;#39;adoption du Craft dans le monde professionnel  Lundi 07 Juin - 20h Lors de cette session nous vous proposons de participer à plusieurs discussions autour du thème du craft (bonnes pratiques dans le monde du développement logiciel).</description>
     </item>
     
@@ -45,8 +45,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.alpescraft.fr/edition_2022/</guid>
-      <description>{{ partial &#34;head.html&#34; . }} {{ partial &#34;index/nav.html&#34; . }}    AlpesCraft Édition 2022, du 9 au 10 Juin 2 jours, 6 ateliers, 15 conférences, 240 participants      Revivez la conférence Voir toutes les photos     Jeudi 9 Juin  David Gageot
-      Keynote - Un monolithe pour 200 développeurs : avantages et défis. Développer sur un gros monolith Rails ne se fait pas sans embûche.</description>
+      <description>{{ partial &#34;head.html&#34; (dict &#34;context&#34; . &#34;pageTitle&#34; &#34;Session 2022&#34; &#34;pageDescription&#34; &#34;Découvrir, apprendre et se perfectionner&#34;) }} {{ partial &#34;index/nav.html&#34; . }}    AlpesCraft Édition 2022, du 9 au 10 Juin 2 jours, 6 ateliers, 15 conférences, 240 participants      Revivez la conférence Voir toutes les photos     Jeudi 9 Juin  David Gageot
+      Keynote - Un monolithe pour 200 développeurs : avantages et défis.</description>
     </item>
     
     <item>
@@ -55,7 +55,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.alpescraft.fr/edition_2023/</guid>
-      <description>{{ partial &#34;head.html&#34; . }} {{ partial &#34;index/nav.html&#34; . }}    AlpesCraft Édition 2023, du 1 au 2 Juin 2 jours, 7 ateliers, 12 conférences, 270 participants      Revivez la conférence Voir toutes les photos     Jeudi 1 Juin  Premiers pas dans le craft Vous découvrez le craft et vous chercher un ensemble de pratiques ou d’idées pour vous permettre de découvrir ce nouvel univers qui s’ouvre à vous.</description>
+      <description>{{ partial &#34;head.html&#34; (dict &#34;context&#34; . &#34;pageTitle&#34; &#34;Session 2023&#34; &#34;pageDescription&#34; &#34;Découvrir, apprendre et se perfectionner&#34;) }} {{ partial &#34;index/nav.html&#34; . }}    AlpesCraft Édition 2023, du 1 au 2 Juin 2 jours, 7 ateliers, 12 conférences, 270 participants      Revivez la conférence Voir toutes les photos     Jeudi 1 Juin  Premiers pas dans le craft Vous découvrez le craft et vous chercher un ensemble de pratiques ou d’idées pour vous permettre de découvrir ce nouvel univers qui s’ouvre à vous.</description>
     </item>
     
     <item>
@@ -64,8 +64,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.alpescraft.fr/session/</guid>
-      <description>{{ partial &#34;head.html&#34; . }}  {{ partial &#34;previousEdition/nav.html&#34; . }} {{ $speakersmap := $.Site.Params.speakersmap }} {{ range $index, $slot := $.Site.Params.schedule }} {{ range $spk := $slot.speakers }} {{ $speaker := index $speakersmap (string $spk.speakerid) }} {{ if $speaker.href }} {{ end }}  {{ if ne $speaker.name &#34;Orga&#34; }} {{ $speaker.name }}
-{{ end }}   {{ if $speaker.href }}  {{ end }} {{ end }}     {{ .</description>
+      <description>{{ partial &#34;head.html&#34; (dict &#34;context&#34; . &#34;pageTitle&#34; &#34;AlpesCraft Session&#34; &#34;pageDescription&#34; &#34;Découvrir, apprendre et se perfectionner&#34;) }}  {{ partial &#34;previousEdition/nav.html&#34; . }} {{ $speakersmap := $.Site.Params.speakersmap }} {{ range $index, $slot := $.Site.Params.schedule }} {{ range $spk := $slot.speakers }} {{ $speaker := index $speakersmap (string $spk.speakerid) }} {{ if $speaker.href }} {{ end }}  {{ if ne $speaker.name &#34;Orga&#34; }} {{ $speaker.name }}
+{{ end }}   {{ if $speaker.</description>
     </item>
     
     <item>
@@ -74,7 +74,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.alpescraft.fr/sponsoring/</guid>
-      <description>{{ partial &#34;head.html&#34; . }} {{ partial &#34;previousEdition/nav.html&#34; . }}    AlpesCraft      Nous sommes ravis de voir que la conférence que nous organisons suscite autant d&#39;intérêt et d&#39;enthousiasme. Nous tenons à vous informer que toutes les places de sponsoring Mentor pour cette année ont été attribuées. Nous sommes désolés pour ceux d&#39;entre vous qui n&#39;ont pas eu l&#39;opportunité de devenir mentor cette année, mais nous serions heureux de vous compter parmi les sponsors Apprentis.</description>
+      <description>{{ partial &#34;head.html&#34; (dict &#34;context&#34; . &#34;pageTitle&#34; &#34;Sponsoring&#34; &#34;pageDescription&#34; &#34;Devenir un sponsor&#34;) }} {{ partial &#34;previousEdition/nav.html&#34; . }}    AlpesCraft      -- -- Réaliser un produit logiciel qui correspond aux besoins de nos utilisateurs et qui soit facile à faire évoluer est un Graal difficile à atteindre.   Cela demande à la fois une excellence technique, une maîtrise des bonnes pratiques sur l&#39;ensemble de la chaîne de production, des compétences de coopération et de communication avec l&#39;ensemble des acteurs, un paradigme de travail d&#39;apprentissage (The Build-Measure-Learn Feedback Loop).</description>
     </item>
     
   </channel>
