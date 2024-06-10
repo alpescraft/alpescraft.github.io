@@ -69,6 +69,16 @@
     
     <item>
       <title></title>
+      <link>https://www.alpescraft.fr/edition_2024/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.alpescraft.fr/edition_2024/</guid>
+      <description>{{ partial &#34;head.html&#34; (dict &#34;context&#34; . &#34;pageTitle&#34; &#34;Édition 2024&#34; &#34;pageDescription&#34; &#34;Découvrir, apprendre et se perfectionner&#34;) }} {{ partial &#34;index/nav.html&#34; . }}    AlpesCraft Édition 2024, du 6 au 7 Juin 2 jours, 4 ateliers, 17 conférences, 330 participants      Revivez la conférence Voir toutes les photos     Jeudi 6 Juin  KAIZEN Solutions
+      Mot du sponsor - KAIZEN Solutions 💌 Consultez les feedbacks !</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://www.alpescraft.fr/session/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
