@@ -33,7 +33,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.alpescraft.fr/discoveryday/</guid>
-      <description>{{ partial &#34;head.html&#34; (dict &#34;context&#34; . &#34;pageTitle&#34; &#34;Sponsoring&#34; &#34;pageDescription&#34; &#34;Devenir un sponsor&#34;) }} {{ partial &#34;previousEdition/nav.html&#34; . }}    AlpesCraft      Journée découverte du craft - 23 mai 2025 Cette année, AlpesCraft propose une nouveauté : une journée pour découvrir le &#34;craft&#34; (ou &#34;Software Craft&#34; ou &#34;Software Craftsmanship&#34;).
+      <description>{{ partial &#34;head.html&#34; (dict &#34;context&#34; . &#34;pageTitle&#34; &#34;Journée découverte&#34; &#34;pageDescription&#34; &#34;Informations sur la journée découverte du craft&#34;) }} {{ partial &#34;previousEdition/nav.html&#34; . }}    AlpesCraft      Journée découverte du craft - 23 mai 2025 Cette année, AlpesCraft propose une nouveauté : une journée pour découvrir le &#34;craft&#34; (ou &#34;Software Craft&#34; ou &#34;Software Craftsmanship&#34;).
     Pour qui ? Pour les personnes novices dans le domaine du craft, quel que soit le niveau en développement logiciel   Objectifs ?</description>
     </item>
     
